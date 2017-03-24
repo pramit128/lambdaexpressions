@@ -6,7 +6,7 @@ package com.xen.typeinference;
 public class TypeInference {
 
     public static void main (String args[]){
-        print((String a, String b) -> a.concat(b));
+        print((a, b) -> a.concat(b));
     }
 
     static void print(Concatenate concatenate){
