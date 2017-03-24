@@ -5,10 +5,6 @@ package com.xen.anonymous;
  */
 public class AnonymouseClass {
 
-    public void method()
-    {
-
-    }
 
     public static void main (String args[]){
         AnonymousInterface anonymousInterface = new AnonymousInterface() {
