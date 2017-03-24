@@ -12,6 +12,7 @@ public class FirstExample {
     }
 }
 
+@FunctionalInterface
 interface Greetings {
     int add (int a, int b);
 }
